@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "初めてのブログ"
-date: 2025-03-15 12:00:00
+date: 2025-03-15
 categories: blog
 ---
 
