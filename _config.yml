@@ -30,9 +30,8 @@ twitter_username: jekyllrb
 github_username:  jekyll
 
 # Build settings
-remote_theme: pages-themes/cayman@v0.2.0
-plugins:
-  - jekyll-remote-theme
+theme: minima
+
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -53,7 +52,3 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
-
-paginate: 5
-plugins:
-  - jekyll-paginate
