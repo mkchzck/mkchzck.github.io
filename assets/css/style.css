@@ -1,0 +1,74 @@
+body {
+    font-family: "Arial", sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+footer {
+    margin-top: 20px;
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+}
+
+/* 通常のリンク */
+a {
+    color: #007bff; /* お好きな色 */
+    text-decoration: none;
+}
+
+/* 訪問済みのリンク（色を変えない） */
+a:visited {
+    color: #007bff; /* 通常のリンクと同じ色にする */
+}
+
+/* ホバー時（マウスを乗せたとき） */
+a:hover {
+    color: #0056b3; /* 少し濃いめの青 */
+    text-decoration: underline;
+}
+
+/* 記事一覧のリンクの色 */
+post-title a {
+    color: #ff6600; /* オレンジ色 */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* 訪問済みのリンク（色を固定） */
+post-title a:visited {
+    color: #ff6600; /* 変えたくないなら通常と同じ色 */
+}
+
+/* ホバー時（マウスを乗せたとき） */
+post-title a:hover {
+    color: #cc3300; /* 濃い赤（好みに合わせて変更OK） */
+    text-decoration: underline;
+}
